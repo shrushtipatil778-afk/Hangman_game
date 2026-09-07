@@ -1,27 +1,22 @@
-# 🎮 Hangman Game – Python
+# CodeAlpha Python Projects
 
-A simple text-based **Hangman Game** developed using Python as part of my **CodeAlpha Python Programming Internship**.
+This repository contains the Python projects completed as part of my **CodeAlpha Python Programming Internship**.
 
-## 📌 Project Overview
+## 🎮 Task 1: Hangman Game
 
-This project is a console-based Hangman game where the player has to guess a randomly selected word one letter at a time.
+A simple text-based Hangman game developed using Python. The player guesses a randomly selected word one letter at a time.
 
-The game provides a maximum of **6 incorrect guesses**. The player wins when all the letters of the selected word are guessed correctly.
+### ✨ Features
 
-## ✨ Features
+- Random word selection
+- Guess the word one letter at a time
+- Maximum 6 incorrect guesses
+- Displays correct and incorrect guesses
+- Shows a winning message when the word is guessed correctly
 
-- 🎲 Random word selection
-- 🔤 Guess the word one letter at a time
-- ❌ Maximum 6 wrong guesses allowed
-- ✅ Displays correct guesses
-- ⚠️ Handles invalid input
-- 🔁 Prevents repeated letter guesses
-- 🏆 Displays a winning message
-- 😔 Displays the correct word when the player loses
+### 🛠️ Concepts Used
 
-## 🛠️ Technologies Used
-
-- **Python**
+- Python
 - `random` module
 - While loop
 - If-else statements
@@ -29,25 +24,63 @@ The game provides a maximum of **6 incorrect guesses**. The player wins when all
 - Lists
 - User input/output
 
-## 📋 How the Game Works
+### ▶️ How to Run
 
-1. The program randomly selects a word from a predefined list.
-2. The selected word is displayed as underscores.
-3. The player enters one letter at a time.
-4. If the letter is correct, it is revealed in the word.
-5. If the letter is incorrect, the wrong-guess count increases.
-6. The player can make a maximum of 6 incorrect guesses.
-7. The game ends when:
-   - The player guesses the complete word successfully, or
-   - The player reaches 6 incorrect guesses.
+Run the `Hangman_game.ipynb` file using Jupyter Notebook or Google Colab.
 
-## ▶️ How to Run
+---
 
-### Step 1: Install Python
+## 📈 Task 2: Stock Portfolio Tracker
 
-Make sure Python is installed on your computer.
+A simple Python-based Stock Portfolio Tracker that calculates the total investment value using predefined stock prices and the quantity entered by the user.
 
-### Step 2: Clone the Repository
+### ✨ Features
 
-```bash
-git clone <YOUR_GITHUB_REPOSITORY_LINK>
+- Enter stock names
+- Enter stock quantity
+- Uses predefined stock prices
+- Calculates investment value
+- Displays total investment value
+
+### 🛠️ Concepts Used
+
+- Python Dictionary
+- User input/output
+- Basic arithmetic
+- Loops
+- Conditional statements
+
+### 📋 How It Works
+
+1. The program contains predefined stock prices.
+2. The user enters the stock name.
+3. The user enters the quantity.
+4. The program calculates the investment value.
+5. The total investment value is displayed.
+
+### 💻 Example Output
+
+```text
+Enter stock name: AAPL
+Enter quantity: 2
+
+AAPL Price: ₹180
+Investment Value: ₹360
+
+🎯 Learning Outcomes
+Through these projects, I practiced:
+Python programming fundamentals
+Lists and strings
+Dictionaries
+Loops and conditional statements
+User input/output
+Random word selection
+Basic arithmetic and problem-solving
+👩‍💻 Internship
+Organization: CodeAlpha
+Domain: Python Programming
+Completed Tasks:
+Task 1 – Hangman Game
+Task 2 – Stock Portfolio Tracker
+🙏 Acknowledgement
+Thanks to CodeAlpha for providing this opportunity to improve my Python programming skills through practical project development.
